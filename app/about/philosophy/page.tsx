@@ -41,14 +41,7 @@ export default function PhilosophyPage() {
         </p>
         <p>
           Every course we teach and every dive we guide is built on the same foundation: safety first,
-          skill second, and a genuine love of the ocean woven through everything in between. We measure our
-          success not by certifications issued, but by the confidence, curiosity, and care each diver
-          carries with them long after they leave Grand Cayman.
-        </p>
-        <p>
-          Whether it&rsquo;s a first-time Discover Scuba Diver taking their first breath underwater or a
-          Dive Master candidate preparing for a career in the industry, our mission stays the same — meet
-          every diver where they are, and help them go further than they thought possible.
+          skill second, and a genuine love of the ocean woven through everything in between.
         </p>
       </TextImageSection>
 
@@ -61,13 +54,7 @@ export default function PhilosophyPage() {
         <p>
           We see a future where every guest who dives with us leaves as more than just a certified diver —
           they leave as an ambassador for the reef, someone who understands why these waters are worth
-          protecting. That ripple effect, one diver at a time, is how we believe real change happens.
-        </p>
-        <p>
-          As Don Foster&rsquo;s Dive Cayman continues to grow, our vision stays rooted in what brought us
-          here in the first place: a deep respect for the Caribbean Sea, a commitment to doing things the
-          right way, and a belief that the best dive operations are built on trust earned one dive at a
-          time.
+          protecting.
         </p>
       </ImageTextSection>
 
