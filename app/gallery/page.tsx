@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
-import Gallery from "@/components/Gallery";
+import GallerySlider from "@/components/GallerySlider";
 import SectionHeading from "@/components/SectionHeading";
 import CTASection from "@/components/CTASection";
 import { img } from "@/lib/images";
@@ -25,13 +25,13 @@ export default function GalleryPage() {
   return (
     <>
       <PageHero title="Gallery" crumbs={[{ label: "Home", href: "/" }, { label: "Gallery" }]} image={img.about.breadcrumb} />
-      {sections.map((s) => (
-        <section key={s.title} className="section first:pt-16">
+      {sections.map((s, i) => (
+        <section key={s.title} className={`section first:pt-16 ${i % 2 === 1 ? "bg-mist" : ""}`}>
           <div className="container">
             <SectionHeading eyebrow="Gallery" title={s.title} align="left" />
-            <div className="mt-8">
-              <Gallery images={s.images} />
-            </div>
+          </div>
+          <div className="mt-8">
+            <GallerySlider images={s.images} alt={s.title} fadeFrom={i % 2 === 1 ? "mist" : "white"} />
           </div>
         </section>
       ))}
