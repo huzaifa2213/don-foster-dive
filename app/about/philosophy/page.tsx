@@ -71,7 +71,12 @@ export default function PhilosophyPage() {
         </p>
       </ImageTextSection>
 
-      <CTASection title="Join Us Below the Surface" cta={{ label: "Book Now", href: "/contact" }} image={img.about.boats[3]} />
+      <CTASection
+        title="Join Us Below the Surface"
+        description="If our philosophy resonates with you, we'd love to have you join us in the water. Book a dive, start a course, or simply come say hello at our South Church Street dock."
+        cta={{ label: "Book Now", href: "/contact" }}
+        image={img.about.boats[3]}
+      />
     </>
   );
 }

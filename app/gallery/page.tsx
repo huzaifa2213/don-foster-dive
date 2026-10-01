@@ -35,7 +35,12 @@ export default function GalleryPage() {
           </div>
         </section>
       ))}
-      <CTASection title="Create Your Own Cayman Memories" cta={{ label: "Book Now", href: "/contact" }} image={img.home.slider[2]} />
+      <CTASection
+        title="Create Your Own Cayman Memories"
+        description="These photos are just a glimpse of what's waiting below the surface. Join us for a boat dive, a relaxed afternoon of shore diving, or a PADI course, and start building your own collection of Grand Cayman memories."
+        cta={{ label: "Book Now", href: "/contact" }}
+        image={img.adventureDiving.shoreDiving.gallery[2]}
+      />
     </>
   );
 }

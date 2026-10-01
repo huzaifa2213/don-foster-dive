@@ -245,7 +245,7 @@ export default function CruiseShipsPage() {
 
       <CTASection
         title="Book Your Shore Excursion"
-        description="Limited spaces, reservations required — reserve your spot before your ship docks."
+        description="Make the most of your day in port with a dive or snorkel excursion just a few blocks from the terminal. Spaces are limited, so reserve your spot before your ship docks."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.cruiseShips.gallery[3]}
       />

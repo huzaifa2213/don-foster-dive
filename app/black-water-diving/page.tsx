@@ -32,7 +32,12 @@ export default function BlackWaterDivingPage() {
           </div>
         </div>
       </section>
-      <CTASection title="Book a Black Water Dive" cta={{ label: "Reserve Online", href: "/contact" }} image={img.blackWaterDiving.gallery[0]} />
+      <CTASection
+        title="Book a Black Water Dive"
+        description="Drift over the open ocean after dark and encounter pelagic creatures most divers never see. Spaces are limited and prior night diving experience is recommended — reserve your spot today."
+        cta={{ label: "Reserve Online", href: "/contact" }}
+        image={img.blackWaterDiving.gallery[0]}
+      />
     </>
   );
 }

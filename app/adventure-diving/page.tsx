@@ -20,7 +20,12 @@ export default function AdventureDivingPage() {
         image={img.adventureDiving.breadcrumb}
       />
       <ServiceGrid eyebrow="Choose Your Adventure" title="Dive Experiences" services={divingServices} />
-      <CTASection title="Ready to Get in the Water?" cta={{ label: "Reserve Online", href: "/contact" }} image={img.adventureDiving.featured.boatDiving} />
+      <CTASection
+        title="Ready to Get in the Water?"
+        description="From waterfront shore dives to daily boat trips and the Kittiwake wreck, there's a Grand Cayman adventure waiting for every level of diver. Tell us what you're after and we'll set you up."
+        cta={{ label: "Reserve Online", href: "/contact" }}
+        image={img.adventureDiving.featured.boatDiving}
+      />
     </>
   );
 }

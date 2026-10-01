@@ -221,7 +221,7 @@ export default function AdvancedSnorkellingPage() {
 
       <CTASection
         title="Ready for Your Snorkel Adventure?"
-        description="Limited spaces on every trip — reserve your spot today."
+        description="From our three house reefs to the after-dark Glow Quest adventure, there's a snorkel trip here for every confident swimmer. Spaces are limited on every trip, so reserve yours today."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.advancedSnorkelling.gallery[6]}
       />

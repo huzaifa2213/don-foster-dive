@@ -83,7 +83,7 @@ export default function ScubaRefresherPage() {
 
       <CTASection
         title="Ready to Get Back in the Water?"
-        description="Rebuild your confidence with a professional instructor by your side."
+        description="If it's been a while since your last dive, there's no need to feel rusty. We'll rebuild your skills and confidence step by step, with a professional instructor by your side the whole way."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.courses.refresher.gallery[0]}
       />

@@ -119,7 +119,7 @@ export default function OpenWaterPage() {
 
       <CTASection
         title="Ready to Get Certified?"
-        description="Start your PADI Open Water certification in Grand Cayman's crystal-clear waters."
+        description="Whether you choose the Referral path or complete your e-learning first, your PADI Open Water certification starts here, in some of the clearest water in the Caribbean."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.courses.openWater.gallery[0]}
       />

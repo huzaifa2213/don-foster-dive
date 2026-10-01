@@ -141,7 +141,7 @@ export default function RescueDiverPage() {
 
       <CTASection
         title="Ready to Become a Rescue Diver?"
-        description="Build the confidence and skills to keep yourself and your buddies safe."
+        description="One of the most challenging and rewarding courses in diving. Build the awareness, confidence, and hands-on skills to keep yourself and your buddies safe in any situation."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.courses.rescueDiver.gallery[0]}
       />

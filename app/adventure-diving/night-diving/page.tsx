@@ -146,7 +146,7 @@ export default function NightDivingPage() {
 
       <CTASection
         title="Book a Night Dive"
-        description="Reservations required at least 24 hours in advance, minimum 2 divers."
+        description="Watch Casuarina Point transform after dark, from bioluminescent plankton to nocturnal reef life you'll never see by day. Reservations required at least 24 hours in advance, minimum 2 divers."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.adventureDiving.nightDiving.gallery[2]}
       />

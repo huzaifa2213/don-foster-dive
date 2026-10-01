@@ -95,7 +95,7 @@ export default function AdvancedOpenWaterPage() {
 
       <CTASection
         title="Ready to Go Further?"
-        description="Choose your electives and expand your diving horizons."
+        description="Deep dives, wrecks, navigation, photography — choose the electives that match your interests and take your diving skills further, guided by our experienced instructor team."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.courses.advancedOpenWater.gallery[0]}
       />

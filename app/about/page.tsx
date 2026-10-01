@@ -76,7 +76,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <CTASection title="Ready to Dive With Us?" cta={{ label: "Book Now", href: "/contact" }} image={img.about.boats[0]} />
+      <CTASection
+        title="Ready to Dive With Us?"
+        description="From your first Discover Scuba experience to advanced wreck and night dives, our team is ready to show you why divers keep coming back to Don Foster's year after year."
+        cta={{ label: "Book Now", href: "/contact" }}
+        image={img.about.boats[0]}
+      />
     </>
   );
 }

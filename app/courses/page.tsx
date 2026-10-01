@@ -67,7 +67,12 @@ export default function CoursesPage() {
         </div>
       </section>
 
-      <CTASection title="Start Your Dive Training" cta={{ label: "Reserve Online", href: "/contact" }} />
+      <CTASection
+        title="Start Your Dive Training"
+        description="From your very first Discover Scuba experience to professional-level Dive Master training, our PADI instructors meet you exactly where you are. Pick a course above, or get in touch and we'll help you choose the right path."
+        cta={{ label: "Reserve Online", href: "/contact" }}
+        image={img.courses.featured.openWater}
+      />
     </>
   );
 }

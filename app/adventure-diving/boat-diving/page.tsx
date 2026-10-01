@@ -119,7 +119,7 @@ export default function BoatDivingPage() {
 
       <CTASection
         title="Reserve Your Boat Dive"
-        description="Daily two-tank trips to Grand Cayman's finest wall and reef sites."
+        description="From dramatic wall dives to colorful shallow reefs, our daily two-tank trips aboard Cayman Wall and Cayman Sky reach some of Grand Cayman's finest and most remote dive sites."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.adventureDiving.boatDiving.gallery[0]}
       />

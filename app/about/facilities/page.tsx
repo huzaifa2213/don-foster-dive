@@ -89,7 +89,12 @@ export default function FacilitiesPage() {
         </div>
       </section>
 
-      <CTASection title="See Our Boats in Action" cta={{ label: "Book a Boat Dive", href: "/adventure-diving/boat-diving" }} image={img.about.boats[2]} />
+      <CTASection
+        title="See Our Boats in Action"
+        description="Cayman Sky and Cayman Wall are ready whenever you are. Book a two-tank morning trip or a relaxed afternoon dive and experience our fleet for yourself."
+        cta={{ label: "Book a Boat Dive", href: "/adventure-diving/boat-diving" }}
+        image={img.about.boats[2]}
+      />
     </>
   );
 }

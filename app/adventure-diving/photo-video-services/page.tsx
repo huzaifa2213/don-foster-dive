@@ -78,7 +78,7 @@ export default function PhotoVideoPage() {
 
       <CTASection
         title="Add a Photo Guide to Your Dive"
-        description="Take the reef home with you — guided by an expert eye."
+        description="A relaxed, slow-paced dive built entirely around your camera — macro or wide-angle, your call. Take the reef home with you, guided by a local Ace Guide who knows exactly where to look."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.adventureDiving.photoVideo.gallery[0]}
       />

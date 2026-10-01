@@ -85,7 +85,7 @@ export default function ShoreDivingPage() {
 
       <CTASection
         title="Book Your Shore Dive"
-        description="Walk straight into Casuarina Point and Devil's Grotto from our waterfront dock."
+        description="No boat required — walk straight off our waterfront dock into Casuarina Point and Devil's Grotto, two of Grand Cayman's most celebrated shore dive sites, at your own pace."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.adventureDiving.shoreDiving.gallery[0]}
       />

@@ -129,7 +129,7 @@ export default function DiveMasterProgramPage() {
 
       <CTASection
         title="Ready to Go Pro?"
-        description="Turn your love for the ocean into a rewarding diving career."
+        description="Mentored by our senior instructor team and backed by over 40 years of island experience, turn your love for the ocean into the start of a genuine diving career."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.courses.featured.divemaster}
       />

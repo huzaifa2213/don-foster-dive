@@ -37,7 +37,12 @@ export default function WhereWeArePage() {
           nearby, we&rsquo;re just a short walk or drive from the island&rsquo;s top attractions.
         </p>
       </ImageTextSection>
-      <CTASection title="Come Dive With Us" cta={{ label: "Get Directions", href: "/contact" }} image={img.about.boats[1]} />
+      <CTASection
+        title="Come Dive With Us"
+        description="We're just 600 yards from downtown George Town, with direct shore access to Casuarina Point and Devil's Grotto. Get in touch and we'll help you plan your visit."
+        cta={{ label: "Get Directions", href: "/contact" }}
+        image={img.about.boats[1]}
+      />
     </>
   );
 }

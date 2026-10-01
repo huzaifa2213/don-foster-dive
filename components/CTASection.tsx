@@ -10,7 +10,10 @@ type Props = {
 };
 
 export default function CTASection({ title, description, cta, image }: Props) {
-  const photo = image ?? imageMap.home.slider[0];
+  // Falls back to a proper square, high-resolution photo (never one of the
+  // 1600x600 wide banner/slider images) — those are too short vertically to
+  // stay sharp once cropped into this circle, especially on retina screens.
+  const photo = image ?? imageMap.home.adventureDiving.boatDiving;
 
   return (
     <section className="section">

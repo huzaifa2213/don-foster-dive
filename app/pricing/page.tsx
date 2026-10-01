@@ -72,9 +72,9 @@ export default function PricingPage() {
 
       <CTASection
         title="Ready to Book Your Dive?"
-        description="Reserve online or get in touch and our team will help you plan the perfect trip."
+        description="Whatever your experience level or budget, we'll help you find the right dive, course, or package. Reserve online in minutes, or get in touch and our team will help you plan the perfect trip."
         cta={{ label: "Reserve Online", href: "/contact" }}
-        image={img.pricing.breadcrumb}
+        image={img.adventureDiving.boatDiving.gallery[1]}
       />
     </>
   );

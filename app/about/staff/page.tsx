@@ -49,7 +49,12 @@ export default function StaffPage() {
           <div className="pointer-events-none absolute inset-y-0 right-0 w-12 md:w-24 bg-gradient-to-l from-white to-transparent" />
         </div>
       </section>
-      <CTASection title="Dive With Our Team" cta={{ label: "Book Now", href: "/contact" }} image={img.about.staff.sergio} />
+      <CTASection
+        title="Dive With Our Team"
+        description="Our instructors and guides bring decades of combined experience to every trip. Book your dive and see firsthand why so many divers request them by name."
+        cta={{ label: "Book Now", href: "/contact" }}
+        image={img.about.staff.sergio}
+      />
     </>
   );
 }

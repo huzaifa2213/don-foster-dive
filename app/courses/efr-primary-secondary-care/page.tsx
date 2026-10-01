@@ -87,7 +87,7 @@ export default function EfrPrimarySecondaryCarePage() {
 
       <CTASection
         title="Ready to Learn Life-Saving Skills?"
-        description="Suitable for divers and non-divers alike."
+        description="CPR and first aid skills that could make all the difference when it matters most. Suitable for divers and non-divers alike — no prior experience required."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.courses.efrPrimary.gallery[0]}
       />

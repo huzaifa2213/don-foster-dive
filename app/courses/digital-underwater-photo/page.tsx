@@ -84,7 +84,7 @@ export default function DigitalUnderwaterPhotoPage() {
 
       <CTASection
         title="Ready to Capture the Reef?"
-        description="Come home with photos that do your dive trip justice."
+        description="Learn to handle lighting, composition, and your camera settings underwater, so the photos you bring home finally do justice to what you saw beneath the waves."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.courses.digitalPhoto.gallery[0]}
       />

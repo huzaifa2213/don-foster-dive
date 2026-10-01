@@ -11,7 +11,12 @@ export default function TestimonialsPage() {
     <>
       <PageHero title="Testimonials" crumbs={[{ label: "Home", href: "/" }, { label: "About", href: "/about" }, { label: "Testimonials" }]} image={img.about.breadcrumb} />
       <GoogleReviews />
-      <CTASection title="Create Your Own Story With Us" cta={{ label: "Book Now", href: "/contact" }} image={img.about.boats[0]} />
+      <CTASection
+        title="Create Your Own Story With Us"
+        description="Every great review starts with a single dive. Come find out firsthand why so many divers choose Don Foster's for their Grand Cayman adventure."
+        cta={{ label: "Book Now", href: "/contact" }}
+        image={img.about.boats[0]}
+      />
     </>
   );
 }

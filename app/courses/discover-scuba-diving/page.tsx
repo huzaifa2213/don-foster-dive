@@ -109,7 +109,7 @@ export default function DiscoverScubaDivingPage() {
 
       <CTASection
         title="Ready to Breathe Underwater?"
-        description="Your first dive adventure is waiting."
+        description="No certification, no experience, no problem. Your first breath underwater — guided every step of the way by a PADI professional — is waiting for you."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.courses.discoverScuba.gallery[0]}
       />

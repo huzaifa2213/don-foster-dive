@@ -96,7 +96,7 @@ export default function KittiwakePage() {
 
       <CTASection
         title="Dive the Kittiwake"
-        description="Explore one of Grand Cayman's most iconic wreck dives."
+        description="A 252-foot former U.S. Navy vessel turned thriving artificial reef, the Kittiwake is one of Grand Cayman's most photographed dives — suitable for both scuba divers and snorkelers."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.adventureDiving.kittiwakeWreck.gallery[0]}
       />

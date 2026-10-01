@@ -86,7 +86,7 @@ export default function EfrRefresherPage() {
 
       <CTASection
         title="Ready to Refresh Your Skills?"
-        description="Stay confident and prepared to respond when it matters most."
+        description="A few hours now keeps your CPR and first aid skills sharp for whenever they're needed. Stay confident and prepared to respond, both in and out of the water."
         cta={{ label: "Reserve Online", href: "/contact" }}
         image={img.courses.efrRefresher.gallery[0]}
       />

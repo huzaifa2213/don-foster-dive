@@ -110,9 +110,9 @@ export default function HomePage() {
 
       <CTASection
         title="Dive Into Discovery"
-        description="Experience Grand Cayman's breathtaking underwater world with expert guides and unforgettable dives. Book your next adventure today!"
+        description="Experience Grand Cayman's breathtaking underwater world with expert guides and unforgettable dives. Whether you're taking your first breath underwater or chasing your next certification, our team is ready to make it happen. Book your next adventure today!"
         cta={{ label: "Reserve Online", href: "/contact" }}
-        image={img.home.slider[1]}
+        image={img.home.adventureDiving.shoreDiving}
       />
     </>
   );
