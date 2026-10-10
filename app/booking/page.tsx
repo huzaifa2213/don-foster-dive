@@ -26,8 +26,12 @@ export default function BookingPage() {
             Fill out the form below and our team will reach out to confirm availability and details.
           </p>
 
-          <div className="mt-10 rounded-xl3 bg-white border-2 border-mist shadow-soft p-6 md:p-10 reveal">
-            <JotFormEmbed src="https://form.jotform.com/jsform/31964493207863" />
+          <div className="mt-10 reveal">
+            <JotFormEmbed
+              src="https://form.jotform.com/jsform/31964493207863"
+              title="Booking Request"
+              description="Tell us what you'd like to book and when — we'll confirm availability by email."
+            />
           </div>
         </div>
       </section>

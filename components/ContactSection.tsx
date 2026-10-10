@@ -42,8 +42,12 @@ export default function ContactSection() {
           <ContactInfoCard icon={<PinIcon />} label="Address" value={business.address} />
         </div>
 
-        <div className="mt-10 rounded-xl3 bg-white border-2 border-mist shadow-soft p-6 md:p-10 reveal">
-          <JotFormEmbed src="https://form.jotform.com/jsform/31893946371869" />
+        <div className="mt-10 reveal">
+          <JotFormEmbed
+            src="https://form.jotform.com/jsform/31893946371869"
+            title="Send Us a Message"
+            description="Questions about a dive, course, or anything else — drop us a line and we'll get back to you shortly."
+          />
         </div>
       </div>
     </section>
