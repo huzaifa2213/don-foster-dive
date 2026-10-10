@@ -96,7 +96,7 @@ export default function Header() {
         </nav>
 
         <div className="hidden lg:block shrink-0">
-          <CTAButton href="/contact">Book Now</CTAButton>
+          <CTAButton href="/booking">Book Now</CTAButton>
         </div>
 
         <MobileNav />

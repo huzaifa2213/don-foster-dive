@@ -1,5 +1,5 @@
 import SectionHeading from "./SectionHeading";
-import ContactForm from "./ContactForm";
+import JotFormEmbed from "./JotFormEmbed";
 import ContactInfoCard from "./ContactInfoCard";
 import { business } from "@/lib/site";
 
@@ -43,7 +43,7 @@ export default function ContactSection() {
         </div>
 
         <div className="mt-10 rounded-xl3 bg-white border-2 border-mist shadow-soft p-6 md:p-10 reveal">
-          <ContactForm />
+          <JotFormEmbed src="https://form.jotform.com/jsform/31893946371869" />
         </div>
       </div>
     </section>

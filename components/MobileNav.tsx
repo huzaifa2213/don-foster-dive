@@ -72,7 +72,7 @@ export default function MobileNav() {
               <MobileNavItem key={item.href} item={item} depth={0} onNavigate={() => setOpen(false)} />
             ))}
             <div className="pt-6">
-              <CTAButton href="/contact" className="w-full">
+              <CTAButton href="/booking" className="w-full">
                 Book Now
               </CTAButton>
             </div>

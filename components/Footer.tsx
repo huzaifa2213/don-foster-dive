@@ -31,7 +31,7 @@ export default function Footer() {
             Diving Grand Cayman since {business.founded}. Waterfront boat and shore diving, snorkelling
             and PADI courses from {business.address}.
           </p>
-          <CTAButton href="/contact" variant="primary" className="mt-6">
+          <CTAButton href="/booking" variant="primary" className="mt-6">
             Book Now
           </CTAButton>
         </div>

@@ -28,8 +28,8 @@ const dives = [
   },
   {
     title: "One-Tank Afternoon Dive",
-    meta: "2:00 PM Departure",
-    text: "Perfect for novice divers, underwater photographers, or Discover Scuba Divers under instructor supervision. A relaxed shallow dive with longer bottom time, designed to enhance comfort and confidence.",
+    meta: "Available Upon Request",
+    text: "Not a guaranteed daily departure — available upon request with a minimum of 5 divers. Most days we close by 2:00–2:30 PM unless dives are already booked, so please check with us first if you'd like to arrange an afternoon trip.",
   },
   {
     title: "Guided & Buddy Team Options",

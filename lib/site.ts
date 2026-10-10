@@ -6,7 +6,7 @@ export const business = {
   founded: 1982,
   phone: "(345) 945-5132",
   phoneHref: "tel:+13459455132",
-  email: "dfdretail@donfosters.com",
+  email: "dfd@donfosters.com",
   address: "218 South Church Street, George Town, Grand Cayman",
   facebook: "https://www.facebook.com/donfostersdive",
   twitter: "https://twitter.com/DonFostersDive",
@@ -147,7 +147,7 @@ export const divingServices: ServiceSummary[] = [
     group: "Photo Buddy Guide",
     activityLevel: "Photo guiding / subject search / creative photography",
     blurb:
-      "Rent underwater camera equipment or have one of our team capture your dive on photo or video to take home.",
+      "Have one of our team guide your dive and capture your photo or video to take home.",
     href: "/adventure-diving/photo-video-services",
     image: img.adventureDiving.featured.photoVideo,
   },
