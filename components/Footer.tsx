@@ -70,6 +70,10 @@ export default function Footer() {
               <a href={business.phoneHref} className="hover:text-brand-300 transition-colors">
                 {business.phone}
               </a>
+              <span className="text-white/50"> · Call or </span>
+              <a href={business.whatsappHref} target="_blank" rel="noopener noreferrer" className="hover:text-brand-300 transition-colors">
+                WhatsApp
+              </a>
             </li>
             <li>
               <a href={`mailto:${business.email}`} className="hover:text-brand-300 transition-colors">

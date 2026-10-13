@@ -38,7 +38,7 @@ export default function ContactSection() {
 
         <div className="mt-10 grid gap-5 sm:grid-cols-3">
           <ContactInfoCard icon={<EmailIcon />} label="Email" value={business.email} href={`mailto:${business.email}`} />
-          <ContactInfoCard icon={<PhoneIcon />} label="Phone" value={business.phone} href={business.phoneHref} />
+          <ContactInfoCard icon={<PhoneIcon />} label="Call or WhatsApp" value={business.phone} href={business.phoneHref} />
           <ContactInfoCard icon={<PinIcon />} label="Address" value={business.address} />
         </div>
 
